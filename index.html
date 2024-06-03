@@ -16,48 +16,33 @@
      body {
       padding: 10px;
      }
-
+     
      .bx {
-      height: 500px;
-      width: 500px;
+       height: 300px;
+      max-width: 400px;
       border: 1px solid black;
-      box-shadow: 10px 10px 4px 1px rgb(214, 230, 242), 10px 10px 4px 1px rgb(189, 217, 239);
-      border-radius: 15px 20px 18px 20px;
-      overflow: hidden;
-      background-image: url(https://images.unsplash.com/photo-1717241365608-5565eef72d89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D);
-      position: relative;
+      display: flex;
+      /* gap: 10px; */
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* align-items: start; */
      }
-
-     .c-bx {
-      width: 250px;
-      height: 300px;
-      border: 1px solid black;
-      object-fit: cover;
-      position: absolute;
-      top: 60px;
-      left: 120px;
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-      font-size: 10px;
-      border-radius: 0px 0px 18px 20px;
-      color: blueviolet;
-      tex
-      
+     
+     .bx1 {
+      background-color: red;
      }
-      
-     img {
-      height: 200px;
-      width: 250px;
+     .bx2 {
+      background-color: grey;
      }
-
-     .c-bx2 {
-      position: absolute;
-      bottom: 30px;
-      left: 5px;
+     .bx3 {
+      background-color: brown;
      }
-
-     button {
-      color: white;
-      background-color: blueviolet;
+     .bx4 {
+      background-color: blue;
+     }
+     .bx5 {
+      background-color: yellow;
      }
 
   </style>
@@ -67,19 +52,26 @@
 <body>
   
 <div class="bx">
+<div class="bx1">
 
-  <div class="c-bx">
-    <img src="https://images.unsplash.com/photo-1717170647980-1b0e2fb163a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8" alt="">
-    <div class="c-bx2">
-      <h1>Avengers infinity war (2018)</h1>
-      <p>Juiced by jimmy heuangpangna</p>
-      <p>star 5/5</p>
-      <button>Fantasy</button>
-      <button>Sci Fi</button>
-    </div>
+  <h3>Box1</h3>
+</div>
+<div class="bx2">
 
-  </div>
+  <h3>Box2</h3>
+</div>
+<div class="bx3">
 
+  <h3>Box3</h3>
+</div>
+<div class="bx4">
+
+  <h3>Box4</h3>
+</div>
+<div class="bx5">
+
+  <h3>Box5</h3>
+</div>
 
 </div>
 
