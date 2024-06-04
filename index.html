@@ -18,25 +18,35 @@
      }
      
      .bx {
-       height: 300px;
-      max-width: 400px;
+        /* height: 300px; */
+      max-width: 450px;
       border: 1px solid black;
       display: flex;
+       /* flex-wrap: wrap;
+      align-content: flex-start; */ */
+      /* align-items: center; */
       /* gap: 10px; */
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      /* flex-direction: column;
+      justify-content: center; */
       /* align-items: start; */
      }
+
+     /* .cbx {
+       width: 200px;
+      flex-grow: 1;
+     } */
      
      .bx1 {
       background-color: red;
+     
      }
      .bx2 {
       background-color: grey;
+      
      }
      .bx3 {
       background-color: brown;
+      
      }
      .bx4 {
       background-color: blue;
@@ -45,30 +55,57 @@
       background-color: yellow;
      }
 
+
+
+     .head {
+      background-color: black;
+      color: white;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+     }
+      
+     a {
+      text-decoration: none;
+      color: white;
+     }
+
+     .nav {
+      display: flex;
+     }
+
   </style>
 
 </head>
 
 <body>
   
+  <div class="head">
+    <h1>hello jee</h1>
+    <nav>
+      <a href="">Home</a>
+      <a href="">Contact</a>
+    </nav>
+  </div>
+
 <div class="bx">
-<div class="bx1">
+<div class="bx1 cbx">
 
   <h3>Box1</h3>
 </div>
-<div class="bx2">
+<div class="bx2 cbx">
 
   <h3>Box2</h3>
 </div>
-<div class="bx3">
+<div class="bx3 cbx">
 
   <h3>Box3</h3>
 </div>
-<div class="bx4">
+<div class="bx4 cbx">
 
   <h3>Box4</h3>
 </div>
-<div class="bx5">
+<div class="bx5 cbx">
 
   <h3>Box5</h3>
 </div>
